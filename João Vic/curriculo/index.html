@@ -1,0 +1,143 @@
+<html>
+<head>
+    <title> Site Currículo </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    
+<header>
+        <nav class="menu">
+            <div class="menuicone"> &#9776 Menu</div> 
+             <ul><img src=>
+            
+           
+                <li><a href="#inicio"> Pessoal</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#redes">Redes</a></li>
+                <li><a href="#endereço">Endereço</a></li>
+            </ul>
+        </nav>
+</header>
+
+<section class="inicio" data-aos="zoom-in">
+    <div class="painel">
+        <div> 
+            <img width="200" src="foto3.jpg">
+            
+        </div>
+        <div> 
+            <h2><i class="fa-solid fa-user-tie"></i> João Victor </h2>
+            <p> Programador Full Stack </p>
+            <h3> Informações Pessoais </h3>
+            <ul>
+                <li> Telefone: <a href="https://wa.me/+554477777777"> 447777-7777</a> </li>
+                <li> Email: JoaoVic@gmail.com</li>
+            </ul>
+            
+        </div>
+    </div>
+
+</section>
+
+    <section id="formacao" data-aos="fade-up">
+        <h3> <i class="fa-solid fa-graduation-cap"></i>Formação</h3>
+        <ul>
+            <li> Colégio Estadual Princesa Isabel</li>
+            <li> Informática - CDI Profissionalizante</li>
+            <table border="1">
+                <tr>
+                    <th> Curso </th>
+                    <th> Instituição</th>
+                    <th> Período</th>
+                    <th> Carga Horário</th>
+                </tr>
+                <tr>
+                    <td> Programador de Sistemas </td>
+                    <td> Senac </td>
+                    <td> 11/02/2026 à 15/06/2026</td>
+                    <td> 200 Horas</td>
+                </tr>
+                <tr>
+                    <td> Informática </td>
+                    <td> Muito</td>
+                    <td> Bacana</td>
+                    <td> Demais</td>
+        
+                </tr>
+            
+            </table>
+        </ul>
+    </section>
+
+        <section id="redes">
+            <h3><i class="fa-solid fa-share-nodes"></i> Contato</h3>
+            <ul>
+                <li> <a href=""><i id="WhatsApp" class="fa-brands fa-whatsapp" style="color: rgb(99, 230, 190);"> </i> WhatsApp </a></li>
+                <li> <a href=""><i id="Facebook" class="fa-brands fa-facebook" style="color: rgb(116, 192, 252);"></i> Facebook</a></li>
+                <li> <a href=""><i id="Instagram" class="fa-brands fa-instagram" style="color: rgb(187, 0, 255);"></i> Instagram</a></li>
+                <li> <a href=""><i id="Linkedin" class="fa-brands fa-linkedin" style="color: rgb(0, 140, 250);"></i> Linkedin </a></li>
+            </ul>
+
+        </section>
+
+<section id="endereço">
+    <h3><i class="fa-solid fa-map-location"></i> Endereço </h3>
+    <ul>
+        <li> Av. Fioravante José Montanher </li>
+        <li> Nº 576</li>
+        <li> Complemento: Próximo ao Hospital </li>
+    </ul>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d386.7279711864005!2d-52.98811188672965!3d-22.758060372984612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x948d974a391b5927%3A0x7f46d31a3f75d62a!2sSesc%20Nova%20Londrina!5e0!3m2!1spt-BR!2sbr!4v1772473288523!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="10" height="10"></iframe> 
+</section>
+
+<section id="experiencia">
+    <h3><i class="fa-solid fa-briefcase"></i> Experiência</h3>
+
+    <table border="1" style=" border-spacing: 0px;">
+        <tr>
+
+            <th> Empresa </th>
+            <th> Função </th>
+            <th> Período </th>
+            
+        </tr>
+        <tr>
+            <td> Senac</td>
+            <td> Instrutor de Tecnologia</td>
+            <td> 2023 à 2026</td>
+        </tr>
+        <tr>
+            <td> Muiiiiiiiiiiito</td>
+            <td> Legal</td>
+            <td>Mesmoooooooo</td>
+        </tr>
+
+    </table>
+</section>
+
+<footer>
+    <p> Criado por <b>João Vic</b> (2026)</p>
+</footer>
+    
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+  AOS.init();
+</script>
+
+<script>
+    alert("Olá mundo");
+    var botao = document.querySelector('.menuicone');
+    var listamenu = document.querySelector('.menu ul')
+
+    botao.addEventListener('click', function(){
+    listamenu.classList.toggle('mostrarmenu')
+    });
+</script>
+
+</html>

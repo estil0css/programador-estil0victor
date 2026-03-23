@@ -1,0 +1,110 @@
+/*resetar a pagina para evitar margens indesejadas*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+header{
+    background-color: rgb(73, 69, 138);
+    color: rgb(255, 255, 255);
+    padding: 1rem 5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: NONE;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover{
+    color: rgb(0, 255, 221);
+}
+
+#hero {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #414299;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-image: url(lll.jpg)
+}
+#hero h1{
+    font-size: 2.25rem;
+    color: rgb(255, 255, 255);
+}    
+#hero p{
+    color: aliceblue;
+ }  
+
+.btn {
+    padding: 10px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    box-shadow: 2px 2px 7px rgb(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+
+}
+
+#sobre{
+    padding: 60px 10%;
+    background-color: rgb(73, 69, 138);
+    text-align: center;
+    color: rgb(253, 254, 255);
+    line-height: 1.6;
+}
+#sobre h2{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: inline-block;
+
+}
+
+#redes {
+    background-image: url(15735691-tecnologia-de-computador-de-alta-ilustracao-sobre-fundo-azul-design-futurista-abstrato-vetor.jpg);
+    padding: 60px 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+#redes h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 2rem;
+}
+#redes h3{
+    text-align: center;
+}
+#redes ul li a{
+    color: aliceblue;
+    line-height: 1.6;
+    text-decoration: none;
+}
+#redes ul li a:hover{
+    color: aqua;
+}
+
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(73, 69, 138);
+    color: aliceblue;
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+section{
+    font-family: "Raleway", sans-serif;
+    max-width: 409px;
+    box-shadow: 2px 2px 7px gray;
+    border-radius: 15px;
+    margin: auto;
+    padding: 45px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(226, 178, 105, 0.507);
+    margin-bottom: 15px;
+    animation: animar alternate infinite 3s
+}
+/*@keyframes animar{
+    0% { box-shadow: 3px 3px 7px rgb(255, 0, 0);}
+    25% { box-shadow: 3px 3px 7px rgb(251, 255, 0);}
+    50% { box-shadow: 3px 3px 7px green;}
+    75% { box-shadow: 3px 3px 7px orange;}
+    100% { box-shadow: 3px 3px 7px blue;} 
+} */
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://-tbn0.gstatic.com/images?q=tbn:ANd9GcTiu6ZcSTThQO-0Ed7S6Z1f7xkv5Dt5WoXFWg&s);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+    border-color: rgb(238, 255, 0);
+    font-size: 16px;
+    text-align: center;
+}
+th{
+    background-color: aliceblue;
+}
+
+ul{
+    list-style: none;
+}
+
+#redes ul li a{
+    text-decoration: none;
+    color: rgb(26, 3, 6);
+}
+
+#WhatsApp{
+    color: rgb(0, 0, 0);
+}
+#Facebook{
+ 
+}
+#Instagram{
+
+}
+#Linkedin{
+
+}
+#WhatsApp, #Facebook, #Instagram, #Linkedin{
+    font-size: 30px;
+}
+
+h3{
+    font-family: "Outfit", sans-serif;
+     text-align:center;
+}
+.menu{
+    background-color: rgb(226, 178, 105, 0.507);
+    background-image: linear-gradient(to right, rgb(207, 157, 157), rgba(202, 176, 27, 0.726));
+    text-align:center;
+}
+.menu ul li{
+    display: inline-block;
+    width:"100px";
+    text-align: center;
+    margin: 10px;
+}
+.menu ul li a{
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    font-weight: bold;
+    color: rgb(0, 255, 0)
+}
+body{
+    margin: 0px;
+    padding: 0px
+}
+.menuicone{
+    display:none;
+}
+
+@media(max-width: 1050px){
+    .menuicone{
+        display: block;
+        color: aliceblue;
+        text-align: left;
+        font-size: 18px;
+        padding: 10px;
+    }
+    .menu{
+        margin-bottom: 20px;
+    }
+    
+    .menu ul{
+        display: none;
+    }
+    section{
+        max-width: 90%;
+        font: size 16px;
+    }
+    td{
+        font-size: 20px;
+    }
+    ul.mostrarmenu{
+        display: inline-block;
+    }
+}
+.menu ul li{
+    width: 100%;
+    text-align: center;
+}
+
+
+.painel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
